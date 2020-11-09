@@ -12,6 +12,7 @@ public class Varer {
     double stykpris;
     Date holdbarhed;
     boolean kanSælges = true;
+    double alder;
 
     void smidUd() {
         kanSælges = false;
