@@ -17,6 +17,11 @@ public class Main {
         a.smidUd();
         a.moden = true;
         a.coolDown();
+        if (a.moden == true)
+            System.out.println("Æble: pris pr. styk: " + a.stykpris + ".");
+        else
+            System.out.println(a + " er ikke modne.");
+
 
         Peas p = new Peas();
         p.stykpris = 0.1;
@@ -27,6 +32,11 @@ public class Main {
         pp.stykpris = 3;
         pp.holdbarhed = new Date(1608768000);
         pp.coolDown();
+        pp.moden = false;
+        if (pp.moden == true)
+            System.out.println("Æble: pris pr. styk: " + pp.stykpris + ".");
+        else
+            System.out.println(pp + " er ikke modne.");
 
         Rødvin r = new Rødvin();
         r.stykpris = 500;

@@ -11,8 +11,6 @@ public class Apple extends Frugt {
 
     String sort = "Golden Delicious";
     String type = "spiseæble";
-    boolean moden = false;
-
 
 
 }
