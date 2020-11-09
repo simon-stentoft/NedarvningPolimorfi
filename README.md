@@ -1,4 +1,4 @@
 # NedarvningPolimorfi
 
---Udvid med flere slags varer
---Udvid med flere slags kategorier (sprut, blomster)
+- Udvid med flere slags varer
+- Udvid med flere slags kategorier (sprut, blomster)
