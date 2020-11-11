@@ -52,5 +52,6 @@ public class Main {
         Lager lager = new Lager();
         lager.antalVarer();
         lager.visVarer();
+
     }
 }
