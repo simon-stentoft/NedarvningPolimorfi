@@ -49,6 +49,8 @@ public class Main {
         o.antalIBuket = 6;
         o.farve = "Rød";
 
-
+        Lager lager = new Lager();
+        lager.antalVarer();
+        lager.visVarer();
     }
 }
